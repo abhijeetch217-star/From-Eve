@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Eva 💛</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="bg"></canvas>
+
+<div id="pages">
+
+<!-- PAGE 1 -->
+<div class="page active" id="p1">
+<h1>Hey Eva 💛</h1>
+<img src="02dcd312823bf6dabebff7e60808afda.gif">
+<p>Thoda sa tough lag raha hoga na sab… 🌿<br>
+Par trust me… tum jitni strong ho na… utna sab theek bhi ho jayega 💫</p>
+<button onclick="next(1)">Thoda aur dekh lo 💫</button>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page" id="p2">
+<h1>Sun na 🤍</h1>
+<img src="9c6092acbf3023c05237ed3fabc339bd.gif">
+<p>Kabhi kabhi life unfair lagti hai… 💭<br>
+Par tumhari smile usko bhi soft bana deti hai 😌</p>
+<button onclick="prev(2)">Wapas 🤍</button>
+<button onclick="next(2)">Aage chalo 👀</button>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page" id="p3">
+<h1>Ek secret 😏</h1>
+<img src="200.gif">
+<p>Jab tum hasta ho na… 😊<br>
+Lagta hai problems thodi der ke liye break le leti hain 💛</p>
+<button onclick="prev(3)">Back</button>
+<button onclick="next(3)">Next 💫</button>
+</div>
+
+<!-- PAGE 4 -->
+<div class="page" id="p4">
+<h1>Relax 🌿</h1>
+<img src="f7d823a5d8b7a33a348e3d97ab3a6863.gif">
+<p>Bas thoda sa ruk jao… deep breath lo… 💭<br>
+You’re doing better than you think 💖</p>
+<button onclick="prev(4)">Back</button>
+<button onclick="next(4)">Aur dekh lo 💛</button>
+</div>
+
+<!-- PAGE 5 -->
+<div class="page" id="p5">
+<h1>Eva 💛</h1>
+<img src="bubu-dudu-hugs-yaz4po52dmgzfqyf.gif">
+<p>Tum sirf strong nahi ho… ✨<br>
+Tum kisi ka mood bhi instantly better kar sakti ho 😌</p>
+<button onclick="prev(5)">Back</button>
+<button onclick="next(5)">Last page 💖</button>
+</div>
+
+<!-- PAGE 6 -->
+<div class="page" id="p6">
+<h1>Smile please 😊</h1>
+<img src="6-1.gif">
+<p>Sab theek ho jayega… 💫<br>
+Aur haan… tumhari smile duniya ko better bana deti hai 💛</p>
+<button onclick="prev(6)">Back 🤍</button>
+<button onclick="heartRain()">Ye dabao 💖</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
